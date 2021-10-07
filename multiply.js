@@ -4,7 +4,7 @@ var args = process.argv.slice(2);
 function multiply(num){
     var result =0;
     for(var i=1;i<=10;i++){
-        result=num*1;
+        result=num*i;
         console.log(`${num} * ${i} = ${result}`);
     }
 }
